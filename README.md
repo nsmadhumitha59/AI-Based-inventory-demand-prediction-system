@@ -104,20 +104,7 @@ cd frontend
 npm install
 ```
 
----
 
-## 🔑 Environment Variables
-
-### Backend (`backend/.env`)
-```
-SECRET_KEY=your-super-secret-production-key
-DEBUG=True
-```
-
-### Frontend (`frontend/.env`)
-```
-VITE_API_URL=http://127.0.0.1:8001/api
-```
 
 ---
 
@@ -137,14 +124,6 @@ $env:DJANGO_SETTINGS_MODULE = "stockwise.settings"
 cd "C:\Users\Lenovo\Desktop\AI-inventory demand prediction\frontend"
 npm run dev
 ```
-
-Then open: **http://localhost:5173/**
-
-### Demo Credentials
-- **Username:** `admin`
-- **Password:** `admin1234`
-
----
 
 ## 📡 API Endpoints
 
