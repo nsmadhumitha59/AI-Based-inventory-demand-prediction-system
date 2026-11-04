@@ -12,7 +12,7 @@ export default defineConfig({
     port: Number(process.env.PORT) || 4173,
     strictPort: true,
     allowedHosts: [
-      'ai-based-inventory-demand-prediction-cc4e.onrender.com'
+      'ai-based-inventory-demand-prediction-cr9k.onrender.com'
     ]
   }
 })
