@@ -4,11 +4,15 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [
-    tailwindcss(),
-    react()
+    react(),
+    tailwindcss()
   ],
-  server: {
-    port: 5173,
-    host: true,
+  preview: {
+    host: '0.0.0.0',
+    port: Number(process.env.PORT) || 4173,
+    strictPort: true,
+    allowedHosts: [
+      'ai-based-inventory-demand-prediction-cc4e.onrender.com'
+    ]
   }
 })
