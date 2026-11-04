@@ -104,8 +104,13 @@ cd frontend
 npm install
 ```
 
+
+<<<<<<< HEAD
+=======
+
 ---
 
+>>>>>>> 8ce923bd051ce578ebfbfb529c50817c9811f932
 ## ▶️ Running the Application
 
 Open **two separate PowerShell terminals**:
@@ -123,9 +128,12 @@ cd "C:\Users\Lenovo\Desktop\AI-inventory demand prediction\frontend"
 npm run dev
 ```
 
+<<<<<<< HEAD
 
 ---
 
+=======
+>>>>>>> 8ce923bd051ce578ebfbfb529c50817c9811f932
 ## 📡 API Endpoints
 
 | Method | Endpoint | Description |
